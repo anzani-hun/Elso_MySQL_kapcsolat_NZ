@@ -1,17 +1,8 @@
-A MySql.Data szép világa
-Az ADO.NET egy olyan specifikáció, amely egységesíti a relációs adatbázisokhoz, XML fájlokhoz és egyéb alkalmazásadatokhoz való hozzáférést.
-A MySql.Data az Oracle által fejlesztett implementációja az ADO.NET specifikációknak MySQL adatbázisokhoz. Ez egy driver, amit C# nyelven írtak és amely elérhető minden .NET nyelv számára.
 Főbb elemei:
 MySqlConnection: Létrehozza a kapcsolatot egy specifikus adatforráshoz.
 MySqlCommand: SQL parancsokat hajt végre az adatforrást használva.
 MySqlDataReader: Adatot streamel az adatforrásról.
-DataSet: Arra használják amikor offline kell dolgozni nagy adathalmazokkal. A MySqlDataReader objektummal együtt adatokon végzett munkához használjuk. Ha egy lekérdezés eredményét szeretnénk olvasni, akkor a MySqlDataReader-t célszerű használni. Ha komolyabb adatfeldolgozásra van szükségünk, vagy Winforms elemeket akarunk adatbázistáblához kötni, a DataSet a jobb választás.
-MySqlDataProvider
-A MySql.Data hozzáadása a projekthez
-Egy új C# projekt létrehozása után hozzá kell adnunk a választott MySQL kezelő package-t a solutionhoz.
-Ehhez a Project  menü → Manage NuGet Packages menüpontját választjuk és telepítjük a MySql.Data package-t.
-Alternatívaként a következő paranccsal is hozzáadható a csomag:
-dotnet add package MySql.Data
+
 ​
 Mire van szükség a kapcsolódáshoz?
 Meg kell adni, hogy melyik névteret importáljuk (using).
